@@ -1,1 +1,1 @@
-rootProject.name = "dynamic-property-source"
+rootProject.name = "spring-boot-mockwebserver"
