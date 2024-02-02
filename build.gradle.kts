@@ -32,6 +32,7 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+    jvmArgs("-XX:+EnableDynamicAgentLoading")
     testLogging {
         events("STARTED", "PASSED", "FAILED", "SKIPPED")
     }
